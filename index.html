@@ -3,97 +3,121 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" contenst="">
-    <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <title>Avocadough</title>
+	<title>Avocadough</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:500&display=swap" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-    <!-- Theme CSS -->
-    <link href="css/creative.min.css" rel="stylesheet">
+	<!-- Avocadough core CSS -->
+	<link href="client/css/style.css" rel="stylesheet">
 
 </head>
 
-<body id="page-top">
+<body>
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Avocadough</a>
-            </div>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md green-bg navbar-dark static-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="client/images/avo-text-logo-dark.svg" />
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
 
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home
+					<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Avocadough</h2>
-                    <hr class="light">
-                    <p class="text-faded">Stay tuned, Avocadough is coming soon! </p>
-                    <!--<a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">Contact Avocadough</a>-->
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- Page Banner -->
+	<div class="container-fluid banner green-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-7 col-lg-6 text-left banner-callout-container text-white">
+					<h1 class="mt-5">The smarter, better way to budget.</h1>
+					<p class="lead mt-5 mb-5">Let our AI help you save, invest, budget, and stay on top of your finances.</p>
+					<div>
+						<a href="#" class="appstore-link btn">
+							<i class="fab fa-apple"></i>
+							<span>App store</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-5 col-lg-6 text-right banner-app-mock-container d-none d-md-block">
+					<img class="banner-app-mock" src="client/images/avo-app-mock-dashboard.svg" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center pt-10 pb-5">
+				<h6 class="text-uppercase text-light-gray">Stay in the know</h6>
+				<h2 class="mt-4">Sign up for our newsletter.</h2>
+				<p class="lead text-muted">We'll keep you updated so you can download the app the second we go live!</p>
+			</div>
+		</div>
+		<form action="https://xyz.us20.list-manage.com/subscribe/post?u=7c42bb8b69b66bf8be111c8f8&amp;id=ab6ad4be66" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<div class="row pb-10 pt-2">
+				<div class="col-md-5 col-xs-12 pb-3">
+					<div class="input-group">
+						<input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Email">
+					</div>
+				</div>
+				<div class="col-md-5 col-xs-12 pb-3">
+					<div class="input-group">
+						<input type="text" class="form-control" name="NAME" class="required" id="mce-NAME" placeholder="Name">
+					</div>
+				</div>
+				<div class="col-md-2 col-xs-12 pb-3">
+					<input type="submit" class="btn btn-primary btn-block" name="subscribe" id="mc-embedded-subscribe" value="Sign Up" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7c42bb8b69b66bf8be111c8f8_ab6ad4be66" tabindex="-1" value=""></div>
+				</div>
+			</div>
+		</form>
 
 
 
 
-    
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contact Avocadough</h2>
-                    <hr class="primary">
-                    <p>Avocadough is coming soon. Please contact us with any questions or comments.</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    
-                </div>
-                <div class="col-lg-4 text-center">
-                    <a href="mailto:contact@avocadough.xyz"><i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p>contact@Avocadough.xyz</p></a>
-                </div>
-                
-            </div>
-        </div>
-    </section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+	</div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.slim.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
