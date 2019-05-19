@@ -156,6 +156,10 @@ h6 {
 	
 }
 
+.footer-brand {
+	width: 150px;
+}
+
 /* Medium and Down */
 @media (max-width: 991.98px) {
 
