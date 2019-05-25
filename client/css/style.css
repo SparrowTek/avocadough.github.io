@@ -80,6 +80,18 @@ h6 {
 .pt-10 {
 	padding-top: 100px !important;
 }
+@media (min-width: 767.98px) {
+	.pt-sm-10 {
+		padding-top: 100px !important;
+	}
+	.mt-sm-10 {
+		margin-top: 100px !important;
+	}
+	.pt-sm-10 {
+		padding-top: 100px !important;
+	}
+}
+
 .pb-10 {
 	padding-bottom: 100px !important;
 }
