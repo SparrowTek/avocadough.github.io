@@ -9,7 +9,7 @@
 	<meta name="author" content="">
 	<meta name="referrer" content="origin">
 
-	<title>Contact Avocadough</title>
+	<title>Bug Reporting</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,16 +39,17 @@
 
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="./">Home
-						<span class="sr-only">(current)</span>
-						</a>
+					<li class="nav-item">
+						<a class="nav-link" href="./">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./contact.html">Contact</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="./report.html">Beta Testers</a>
+						<a class="nav-link" href="./report.html">
+							Beta Testers
+							<span class="sr-only">(current)</span>
+						</a>
 					</li>
 				</ul>
 			</div>
@@ -57,12 +58,12 @@
 
 	<!-- Contact Form -->
 	<div class="container contact-form">
-		<form method="POST" action="https://formspree.io/contact@avocadough.xyz">
+		<form action="https://formspree.io/mlaoppax" method="POST" enctype="multipart/form-data">
 			<div class="row">
 				<div class="col-12 text-center pt-5 pt-sm-10 pb-5">
-					<h6 class="text-uppercase text-light-gray">Get in touch</h6>
-					<h2 class="mt-4">Want to learn more?</h2>
-					<p class="lead text-muted">Send us a message, we'd love to hear from you!</p>
+					<h6 class="text-uppercase text-light-gray">Bug Reporting</h6>
+					<h2 class="mt-4">Found a bug? Want to leave a comment?</h2>
+					<p class="lead text-muted">Thanks for being a beta tester! </p>
 				</div>
 			</div>
 			<div class="row pt-2 justify-content-center">
@@ -80,10 +81,19 @@
 			<div class="row justify-content-center">
 				<div class="col-12 col-md-8 pb-4">
 					<div class="input-group">
-							<textarea class="form-control" name="Message" placeholder="Your message"></textarea>
+							<textarea class="form-control" name="Issue" placeholder="Describe the issue or comment you have"></textarea>
 					</div>
 				</div>
 			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-8 pb-4">
+					<div class="input-group">
+						<input type="file" name="attachment" accept="image/png, image/jpeg">
+					</div>
+				</div>
+			</div>
+
 			<div class="row justify-content-center">
 				<div class="col-12 col-md-8 pb-4">
 					<label class="switch">
