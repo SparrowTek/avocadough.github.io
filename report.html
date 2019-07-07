@@ -100,7 +100,10 @@
 						<input type="checkbox" checked="checked" id="subscribe-newsletter" value="true" name="Subscribe" />
 						<span class="slider"></span>
 					</label>
-					<label class="switch-check-label" for="subscribe-newsletter">Yes, please send me Avocadough updates!</label>
+					<label class="switch-check-label" for="subscribe-newsletter">
+						<span class="yes-updates">Yes, please send me Avocadough updates!</span>
+						<span class="no-updates">No, I don't want updates :(</span>
+					</label>
 				</div>
 			</div>
 			<div class="row justify-content-center">
@@ -109,6 +112,23 @@
 				</div>
 			</div>
 		</form>
+	</div>
+
+	<!-- Modals -->
+	<div class="modal fade" id="formSubmittedModal" tabindex="-1" role="dialog" aria-labelledby="formSubmittedModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="formSubmittedModalLabel">Thanks for being a beta tester!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>We've received your comments and will review them shortly. Thanks again!</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Footer -->
@@ -128,8 +148,10 @@
 	</div>
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.slim.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="client/js/contact.js"></script>
+
 
 </body>
 

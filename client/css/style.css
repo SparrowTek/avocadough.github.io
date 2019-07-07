@@ -299,3 +299,15 @@ input:checked + .slider:before {
 	margin-bottom: 0;
 	margin-left: 10px;
 }
+
+.switch-check-label .no-updates {
+	display: none;
+}
+
+/* Honey Pot Styling */
+.phone {
+	position: absolute;
+	top: -999999999px;
+	left: -99999999px;
+	opacity: 0;
+}
