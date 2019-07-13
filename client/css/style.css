@@ -16,6 +16,14 @@
 
 .navbar-brand img {
 	height: 20px;
+	float: left;
+	margin-top: 15px;
+}
+
+.navbar-brand .icon {
+	height: 60px;
+	margin-top: -12px;
+	margin-right: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -211,6 +219,30 @@ h6 {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		color: #fff;
+	}
+
+	.navbar-brand {
+		position: absolute;
+		top: 30px;
+		left: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.navbar-brand .text {
+		display: none;
+	}
+
+	.navbar-brand .icon {
+		float: none;
+		margin-right: 0;
+		height: 55px;
+	}
+
+	.navbar-toggler {
+		position: absolute;
+		right: 25px;
+		top: 27px;
 	}
 
 }
